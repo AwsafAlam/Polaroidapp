@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_centerVertical="true">
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="4.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/imageView1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_new_file" />
+            <TextView android:textSize="20.0sp" android:layout_gravity="center_vertical" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="TextView" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_weight="2.0">
+            <TextView android:textSize="10.0sp" android:layout_gravity="right" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+            <TextView android:textSize="10.0sp" android:layout_gravity="right" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/IconsLayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <et.song.ui.widgets.ETButton android:id="@id/DeleteeTButton" android:background="@drawable/ic_delete" android:layout_width="@dimen/list_item_iconsize" android:layout_height="@dimen/list_item_iconsize" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

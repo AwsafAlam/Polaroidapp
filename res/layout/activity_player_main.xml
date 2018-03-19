@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<et.song.ui.widgets.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageBg" android:background="@drawable/video_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+    <ProgressBar android:id="@id/progressBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <include android:id="@id/layout_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/layout_right" android:layout_alignParentBottom="true" layout="@layout/layout_player_bottom" />
+    <TextView android:textColor="#ffff0000" android:id="@id/tvRecTime" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" android:layout_below="@id/layout_top" android:layout_alignParentLeft="true" app:layout_marginLeftPercent="23%w" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentBottom="true">
+        <include android:id="@id/layout_player_middle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" layout="@layout/layout_player_middle" />
+        <include android:id="@id/layout_player_for_plane" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" layout="@layout/layout_player_for_plane" />
+    </RelativeLayout>
+    <include android:id="@id/layout_player_midbnt" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_above="@id/layout_bottom" android:layout_below="@id/layout_top" android:layout_centerHorizontal="true" layout="@layout/layout_player_midbnt" />
+    <include android:id="@id/layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" layout="@layout/layout_player_top" />
+    <include android:id="@id/layout_player_right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" layout="@layout/layout_player_right" />
+</et.song.ui.widgets.PercentRelativeLayout>

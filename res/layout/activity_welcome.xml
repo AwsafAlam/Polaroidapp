@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/splash_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <et.song.ui.widgets.ETButton android:id="@id/button_setting" android:background="@drawable/ic_setting" android:layout_width="85.0dip" android:layout_height="85.0dip" android:layout_marginLeft="30.0dip" android:layout_toRightOf="@id/button_help" android:layout_alignTop="@id/button_help" />
+    <et.song.ui.widgets.ETButton android:id="@id/button_help" android:background="@drawable/ic_help" android:layout_width="85.0dip" android:layout_height="85.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="70.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <et.song.ui.widgets.ETButton android:id="@id/button_start" android:background="@drawable/ic_start" android:layout_width="200.0dip" android:layout_height="80.0dip" android:layout_marginBottom="1.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

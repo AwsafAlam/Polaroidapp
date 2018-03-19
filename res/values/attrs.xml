@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ball" format="reference|color" />
+    <attr name="et_background" format="reference|color" />
+    <attr name="min" format="integer" />
+    <attr name="max" format="integer" />
+    <attr name="leftBackground" format="reference|color" />
+    <attr name="rightBackground" format="reference|color" />
+    <attr name="start" format="integer" />
+    <attr name="end" format="integer" />
+    <attr name="OnBackground" format="reference|color" />
+    <attr name="OffBackground" format="reference|color" />
+    <attr name="layout_widthPercent" format="string" />
+    <attr name="layout_heightPercent" format="string" />
+    <attr name="layout_marginPercent" format="string" />
+    <attr name="layout_marginLeftPercent" format="string" />
+    <attr name="layout_marginTopPercent" format="string" />
+    <attr name="layout_marginRightPercent" format="string" />
+    <attr name="layout_marginBottomPercent" format="string" />
+    <attr name="layout_marginStartPercent" format="string" />
+    <attr name="layout_marginEndPercent" format="string" />
+    <attr name="layout_textSizePercent" format="string" />
+    <attr name="layout_maxWidthPercent" format="string" />
+    <attr name="layout_maxHeightPercent" format="string" />
+    <attr name="layout_minWidthPercent" format="string" />
+    <attr name="layout_minHeightPercent" format="string" />
+    <attr name="layout_paddingPercent" format="string" />
+    <attr name="layout_paddingTopPercent" format="string" />
+    <attr name="layout_paddingBottomPercent" format="string" />
+    <attr name="layout_paddingLeftPercent" format="string" />
+    <attr name="layout_paddingRightPercent" format="string" />
+    <attr name="borderWidth" format="dimension" />
+    <attr name="borderColor" format="color" />
+    <attr name="borderRadius" format="dimension" />
+    <attr name="passwordLength" format="integer" />
+    <attr name="passwordWidth" format="dimension" />
+    <attr name="passwordColor" format="color" />
+    <attr name="passwordRadius" format="dimension" />
+    <attr name="MarginSize" format="dimension" />
+    <attr name="BallSize" format="dimension" />
+    <attr name="BitmapBg" format="reference" />
+    <attr name="BitmapBall" format="reference" />
+</resources>

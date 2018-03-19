@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <et.song.ui.widgets.ETButton android:layout_gravity="center_vertical" android:id="@id/button_tofly" android:background="@drawable/ic_to_fly" android:layout_width="@dimen/top_bnt_size" android:layout_height="@dimen/top_bnt_size" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <et.song.ui.widgets.ETButton android:layout_gravity="center_vertical" android:id="@id/button_toland" android:background="@drawable/ic_to_land" android:layout_width="@dimen/top_bnt_size" android:layout_height="@dimen/top_bnt_size" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <et.song.ui.widgets.ETButton android:layout_gravity="center_vertical" android:id="@id/button_guiji" android:background="@drawable/track_off" android:layout_width="@dimen/top_bnt_size" android:layout_height="@dimen/top_bnt_size" />
+    </LinearLayout>
+</LinearLayout>

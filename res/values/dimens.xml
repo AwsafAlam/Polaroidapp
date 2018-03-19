@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="text_size_small">10.0sp</dimen>
+    <dimen name="text_size">12.0sp</dimen>
+    <dimen name="text_size_large">15.0sp</dimen>
+    <dimen name="dp_size_5">5.0dip</dimen>
+    <dimen name="dp_size_10">10.0dip</dimen>
+    <dimen name="dp_size_15">15.0dip</dimen>
+    <dimen name="dp_size_20">20.0dip</dimen>
+    <dimen name="dp_size_25">25.0dip</dimen>
+    <dimen name="dp_size_30">30.0dip</dimen>
+    <dimen name="dp_size_35">35.0dip</dimen>
+    <dimen name="dp_size_40">40.0dip</dimen>
+    <dimen name="dp_size_45">45.0dip</dimen>
+    <dimen name="dp_size_50">50.0dip</dimen>
+    <dimen name="dp_size_100">100.0dip</dimen>
+    <dimen name="top_bnt_size">45.0dip</dimen>
+    <dimen name="top_bnt_tmargin">5.0dip</dimen>
+    <dimen name="top_bnt_lmargin">1.0dip</dimen>
+    <dimen name="control_panel_size">200.0dip</dimen>
+    <dimen name="control_panel_size_2">500.0dip</dimen>
+    <dimen name="pagetitle_font_size">24.0dip</dimen>
+    <dimen name="pagehead_icon_size">42.0dip</dimen>
+    <dimen name="pagehead_height">56.0dip</dimen>
+    <dimen name="menu_top_padd">12.0dip</dimen>
+    <dimen name="rocker_ball_size">60.0dip</dimen>
+    <dimen name="tabhost_bnt_width">40.0dip</dimen>
+    <dimen name="tabhost_bnt_height">40.0dip</dimen>
+    <dimen name="tabhost_bnt_fontsize">20.0sp</dimen>
+    <dimen name="list_item_iconsize">25.0dip</dimen>
+</resources>

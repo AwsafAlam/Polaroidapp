@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_back" android:background="@drawable/ic_back" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_photo" android:background="@drawable/ic_photo" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_reco" android:background="@drawable/ic_reco_off" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_album" android:background="@drawable/ic_album" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_speed" android:background="@drawable/ic_speed_0" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_atmospheric" android:background="@drawable/atmospheric_off" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_g" android:background="@drawable/ic_g_off" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_hide" android:background="@drawable/ic_hide" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_rev" android:background="@drawable/ic_rev" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_3d" android:background="@drawable/ic_3d_off" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_stop" android:background="@drawable/ic_stop_off" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_switch_video" android:background="@drawable/ic_reload_1" style="@style/TopBtn" />
+    </LinearLayout>
+    <LinearLayout style="@style/TopLinearLayout">
+        <et.song.ui.widgets.ETButton android:id="@id/button_g_right" android:background="@drawable/ic_g_right_off" style="@style/TopBtn" />
+    </LinearLayout>
+</LinearLayout>

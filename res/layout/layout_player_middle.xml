@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:appattrs="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <et.song.ui.widgets.ETLeftRocker android:id="@id/rocker_left" android:layout_width="@dimen/control_panel_size" android:layout_height="@dimen/control_panel_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" appattrs:BallSize="@dimen/rocker_ball_size" appattrs:BitmapBg="@drawable/rocker_bk_left" appattrs:BitmapBall="@drawable/rocker" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <et.song.ui.widgets.ETRightRocker android:id="@id/rocker_right" android:layout_width="@dimen/control_panel_size" android:layout_height="@dimen/control_panel_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" appattrs:BallSize="@dimen/rocker_ball_size" appattrs:BitmapBg="@drawable/rocker_bk_right" appattrs:BitmapBall="@drawable/rocker" />
+    </RelativeLayout>
+</LinearLayout>
