@@ -4,12 +4,13 @@
 We have decompiled the Polaroid apk into this app. For this purpose , we are using the Apktool library
 
 ### Prerequisites
+---
 - Java JDK must be installed 
 - Android SDK must be installed.
 - Must downliad the Apktool.jar file and add it to you Environment variables
 
 ###### It is to be noted that all the guidelines provided here are for windows only.
-
+---
 #### Installation of Apktool 
 - Is at least Java 1.7 installed?
 - Does executing java -version on command line / command prompt return 1.7 or greater?
@@ -27,7 +28,7 @@ Now, download the Apktool
 Now that Apktool is installed we can move on  to decompiling and editing our app.
 
 ## Decompiling the Apk
-
+---
 The decode option on Apktool can be invoked either from d or decode like shown below.
 
 ```
@@ -47,7 +48,12 @@ $ apktool d bar.apk -o baz
 // decodes bar.apk to baz folder
 ```
 
+## Converting the smalli files to java src files
+---
+[follow this link](https://www.youtube.com/watch?v=K35AkvE8ulY)
+
 ## Building the app 
+---
 
 The build option can be invoked either from b or build like shown below
 
@@ -81,5 +87,5 @@ In order to run a rebuilt application. You must resign the application. [Android
 
 Thank you.
 
-
+---
 
